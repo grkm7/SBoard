@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvFavList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivFavImage"
+                android:layout_width="334dp"
+                android:layout_height="210dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="31dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/adrasan" />
+
+            <TextView
+                android:id="@+id/tvFavName"
+                android:layout_width="141dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="25dp"
+                android:text="Adrasan"
+                android:textColor="@color/darkYellow"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ivFavImage" />
+
+            <TextView
+                android:id="@+id/tvFavColor"
+                android:layout_width="134dp"
+                android:layout_height="28dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="12dp"
+                android:text="TextView"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvFavName" />
+
+            <TextView
+                android:id="@+id/tvFavSize"
+                android:layout_width="128dp"
+                android:layout_height="32dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginStart="43dp"
+                android:layout_marginLeft="43dp"
+                android:layout_marginTop="11dp"
+                android:text="TextView"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvFavColor" />
+
+            <TextView
+                android:id="@+id/tvFavPrice"
+                android:layout_width="143dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="76dp"
+                android:layout_marginRight="81dp"
+                android:text="2500 TL"
+                android:textColor="@color/darkYellow"
+                android:textSize="25sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ivFavImage" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="127dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/removeFromFavLsit"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/tvFavColor"
+                app:layout_constraintTop_toBottomOf="@+id/tvFavPrice" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/removeFavList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="14dp"
+                android:clickable="true"
+                app:layout_constraintStart_toEndOf="@+id/textView7"
+                app:layout_constraintTop_toBottomOf="@+id/tvFavPrice"
+                app:srcCompat="@drawable/remove" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

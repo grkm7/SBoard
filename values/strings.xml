@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">SBoard</string>
+    <string name="about_this_app">About This Application</string>
+    <string name="introduction">In this application , users will reach various of surf boards.
+        Each surf board has his own unique properties .
+        This properties are shown in detailly . Users can add surf boards which they like to cart .
+        Surf bards are listed in the cart tab. With share button above this text , you can share application name with your friends .
+        Users can go to main page after clicked the button below these texts .
+        </string>
+    <string name="surfboard_history">A surfboard is a narrow plank used in surfing.
+        Surfboards are relatively light, but are strong enough to support an individual standing on them while riding an ocean wave.
+        They were invented in ancient Hawaii, where they were known as papa he\'e nalu in the Hawaiian language,
+        they were usually made of wood from local trees, such as koa, and were often over 460 cm  in length and extremely heavy.
+        Major advances over the years include the addition of one or more fins (skegs) on the bottom rear of the board to improve directional stability,
+        and numerous improvements in materials and shape.</string>
+    <string name="mainButton">Go To Maın Page</string>
+    <string name="catalogue">Catalogue</string>
+    <string name="favoriteList">Favorite List</string>
+    <string name="filterOptionPrice">Price</string>
+    <string name="filterOptionSize">Size</string>
+    <string name="filterOptionColor">Color</string>
+    <string name="addToFavList">Add to Favorite List : </string>
+    <string name="removeFromFavLsit">Remove From Favorite List : </string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="name">Name:</string>
+    <string name="surname">Surname:</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="pick_image_from_gallery">Pick Image From Gallery</string>
+    <string name="SBoard_profile">Your Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="info">info</string>
+    <string name="info_context">In this page , there is a information about how profile page works .
+        Firstly , if you enter profile page for first time , an account will be created . And random name will be given to this account .
+        However user can update and set his name to the app . This name will saved locally with SQLiteDatabase .
+        This information do not lost if you exit the application . You can see your name in profile page every time enter the application . </string>
+    <string name="added_to_cart">added to cart.</string>
+    <string name="removed_from_cart">removed from cart</string>
+    <string name="yes">Yes</string>
+    <string name="will_be_removed">will be removed from favlist?</string>
+    <string name="pink">Pink</string>
+    <string name="orange">Orange</string>
+    <string name="blue">Blue</string>
+    <string name="plese_wait">Please Wait</string>
+    <string name="update">Update</string>
+    <string name="ios">There is no ios version of this app yet.</string>
+    <string name="free">This application is free.</string>
+    <string name="is_there_ios_version">Is there ios version?</string>
+    <string name="this_app_free">This app free?</string>
+    <string name="account_updated">Your account is updated</string>
+
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_goProfile"
+        android:icon="@drawable/profile"
+        android:title="@string/edit_profile" />
+    <item
+        android:id="@+id/action_profile_info"
+        android:icon="@drawable/info"
+        android:title="@string/info" />
+    <item
+        android:id="@+id/action_ios"
+        android:title="@string/is_there_ios_version" />
+    <item
+        android:id="@+id/action_free"
+        android:title="@string/this_app_free" />
+
+
+</menu>
